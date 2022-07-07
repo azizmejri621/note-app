@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<title>note app</title>
+</head>
+<body>
+    <div id="input">
+         <input type="text" placeholder="Add the title" id="title1">
+         <textarea id="text" placeholder="write the note"></textarea> 
+         <button id="btn_add" onclick="new_note()">Add note</button>
+    </div>
+
+   <div class="container">
+
+    <div id="output">
+      	  <div id="add" onclick="display_input()">
+            <p id="input-popup">+</p>
+      	  </div>
+          <!--<div id="note">
+           <p id="title">Title of the note</p>
+          </div>
+          <div id="note">
+           <p id="title">Title of the note</p>
+          </div>
+          <div id="note">
+           <p id="title">Title of the note</p>
+          </div>
+          <div id="note">
+           <p id="title">Title of the note</p>
+          </div>
+          <div id="note">
+           <p id="title">Title of the note</p>
+          </div>
+          <div id="note">
+           <p id="title">Title of the note</p>
+          </div>
+          <div id="note">
+           <p id="title">Title of the note</p>
+          </div>
+          <div id="note">
+           <p id="title">Title of the note</p>
+          </div>-->
+    </div>
+   </div>
+   <!--<div id="note-reader">
+      
+      <div id="header">
+            <h1 id="title2">Title of the note</h1>
+            <button id="exit">&#10006;</button>
+      </div>
+      <p id="note-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod bibendum neque, et bibendum felis tincidunt a. Pellentesque laoreet diam quis dictum rhoncus. Praesent malesuada sem sed nisl pretium, quis ultricies lacus consequat. Donec accumsan, nisi eu maximus volutpat, ipsum felis maximus tortor, sollicitudin placerat arcu metus quis felis. Cras luctus massa vestibulum sapien commodo, a ultrices felis blandit. Cras id sodales augue. Duis vel gravida neque. Proin ultricies massa vitae est sagittis, id hendrerit neque feugiat. Mauris augue justo, maximus pulvinar quam non, venenatis cursus elit. Suspendisse semper, purus eu lacinia dignissim, nisi dolor fringilla dui, vel volutpat arcu mauris sit amet nulla.</p>
+   </div>-->
+   <div id="overlay"></div>
+</body>
+</html>

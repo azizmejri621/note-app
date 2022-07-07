@@ -1,0 +1,171 @@
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  margin: 5px;
+  background-color: #baccdf;
+  display: flex;
+  justify-content: center;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+#output{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 80%;
+   justify-content: center;
+}
+#input{
+
+  position: fixed;
+    z-index: 10;
+    align-self: center;
+    /*display: flex;*/
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 15px;
+    display: none;
+}
+#add{
+    height: 200px;
+    background-color: slategrey;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: solid;
+    border-color: aliceblue;
+    border-radius: 10px;
+}
+#input-popup {
+    font-size: 50px;
+    font-weight: 1000;
+    color: aliceblue;
+}
+#add:hover{
+    background-color: aliceblue;
+    border-color: slategrey;
+    cursor: pointer;
+    color: slategrey;
+}
+#add:hover #input-popup {
+   color : slategrey;
+}
+#note{
+
+    height: 200px;
+    background-color: aliceblue;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+#title{
+
+    font-size: 26px;
+    color: slategrey;
+    font-family: system-ui;
+
+}
+#note:hover{
+    cursor: pointer;
+    background-color: slategrey;
+    border-color: aliceblue;
+}
+#note:hover #title {
+   color: aliceblue;
+}
+#overlay{
+  position: fixed;
+  top : 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #000000c7;
+  display: none;
+  
+}
+#title1 {
+    padding: 10px;
+    font-size: 26px;
+    font-family: system-ui;
+    margin: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: slategrey;
+}
+
+#text{
+width: 500px;
+    height: 150px;
+    font-size: 20px;
+    font-family: system-ui;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: slategrey;
+    border-width: 2px;
+    }    
+#btn_add {
+
+    margin: 5px;
+    background: transparent;
+    border: none;
+    font-size: 26px;
+    font-family: system-ui;
+    color: slategray;
+    font-weight: 500;
+
+}
+
+#note-reader {
+
+    /*display: flex;*/
+    flex-direction: column;
+    z-index: 11;
+    width: 50%;
+    align-self: center;
+    background: white;
+    position: fixed;
+    color: darkslategrey;
+    padding: 10px;
+    font-family: system-ui;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding-top: 0;
+    display: none;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+#exit{
+ background-color: transparent;
+ margin: 18px;
+ font-size: 20px;
+ border : none;
+}
+#exit:hover{
+  cursor: pointer;
+  color: darkred;
+}
+
+#btn_add:hover {
+  cursor: pointer;
+  color:  #4a726f;
+}
